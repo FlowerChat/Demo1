@@ -45,7 +45,7 @@ def makeWebhookResult(req):
     kik_message = [
         {
             "type": "text",
-            "body": "Here's an example of the Florist A work
+            "body": "Here's an example of the Florist A work"
         },
         {
             "type": "picture",
