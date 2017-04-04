@@ -72,7 +72,7 @@ def makeWebhookResult(req):
         "displayText": speech,
         "data": {"kik": kik_message},
         # "contextOut": [],
-        "contextOut": [{"name":"choose-florist", "lifespan":2}]
+        "contextOut": [{"name":"choose-florist", "lifespan":2},{"name":"flowerchatline", "lifespan":5}]
     }
 
 
