@@ -64,8 +64,7 @@ def makeWebhookResult(req):
             "body": "Please choose Florist A or Florist B",
             "keyboards":[
                 {"type": "suggested",
-                 "hidden": true,
-                 "responses": [
+                "responses": [
                      {
                          "type": "text",
                          "body": "Florist A"
@@ -77,10 +76,9 @@ def makeWebhookResult(req):
                  ]
                 }
             ]
-            
         }
-        
     ]
+
 
     print(json.dumps(kik_message))
     return {
