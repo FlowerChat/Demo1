@@ -64,6 +64,7 @@ def makeWebhookResult(req):
             "body": "Please choose Florist A or Florist B",
             "keyboards":[
                 {"type": "suggested",
+                 "hidden": "false",
                 "responses": [
                      {
                          "type": "text",
