@@ -62,6 +62,11 @@ def makeWebhookResult(req):
         {
             "type": "text",
             "body": "Please choose Florist A or Florist B",
+            "replies":[
+                "Florist A",
+                "FLorist B"
+            ],
+            "type":2
         }
         
     ]
